@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		331DAEDA2EC16D240055EBEC /* HANAtekuteku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HANAtekuteku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331DAEDA2EC16D240055EBEC /* 花てくてっく.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "花てくてっく.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		331DAF8A2EC184830055EBEC /* Exceptions for "HANAtekuteku" folder in "HANAtekuteku" target */ = {
+		331DAF8A2EC184830055EBEC /* Exceptions for "HANAtekuteku" folder in "花てくてっく" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 331DAED92EC16D240055EBEC /* HANAtekuteku */;
+			target = 331DAED92EC16D240055EBEC /* 花てくてっく */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +24,7 @@
 		331DAEDC2EC16D240055EBEC /* HANAtekuteku */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				331DAF8A2EC184830055EBEC /* Exceptions for "HANAtekuteku" folder in "HANAtekuteku" target */,
+				331DAF8A2EC184830055EBEC /* Exceptions for "HANAtekuteku" folder in "花てくてっく" target */,
 			);
 			path = HANAtekuteku;
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		331DAEDB2EC16D240055EBEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				331DAEDA2EC16D240055EBEC /* HANAtekuteku.app */,
+				331DAEDA2EC16D240055EBEC /* 花てくてっく.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		331DAED92EC16D240055EBEC /* HANAtekuteku */ = {
+		331DAED92EC16D240055EBEC /* 花てくてっく */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 331DAEE52EC16D240055EBEC /* Build configuration list for PBXNativeTarget "HANAtekuteku" */;
+			buildConfigurationList = 331DAEE52EC16D240055EBEC /* Build configuration list for PBXNativeTarget "花てくてっく" */;
 			buildPhases = (
 				331DAED62EC16D240055EBEC /* Sources */,
 				331DAED72EC16D240055EBEC /* Frameworks */,
@@ -76,11 +76,11 @@
 			fileSystemSynchronizedGroups = (
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 			);
-			name = HANAtekuteku;
+			name = "花てくてっく";
 			packageProductDependencies = (
 			);
 			productName = HANAtekuteku;
-			productReference = 331DAEDA2EC16D240055EBEC /* HANAtekuteku.app */;
+			productReference = 331DAEDA2EC16D240055EBEC /* 花てくてっく.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 331DAED52EC16D240055EBEC /* Build configuration list for PBXProject "HANAtekuteku" */;
+			buildConfigurationList = 331DAED52EC16D240055EBEC /* Build configuration list for PBXProject "花てくてっく" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				331DAED92EC16D240055EBEC /* HANAtekuteku */,
+				331DAED92EC16D240055EBEC /* 花てくてっく */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		331DAED52EC16D240055EBEC /* Build configuration list for PBXProject "HANAtekuteku" */ = {
+		331DAED52EC16D240055EBEC /* Build configuration list for PBXProject "花てくてっく" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				331DAEE32EC16D240055EBEC /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		331DAEE52EC16D240055EBEC /* Build configuration list for PBXNativeTarget "HANAtekuteku" */ = {
+		331DAEE52EC16D240055EBEC /* Build configuration list for PBXNativeTarget "花てくてっく" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				331DAEE62EC16D240055EBEC /* Debug */,

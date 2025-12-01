@@ -29,6 +29,11 @@
 			path = HANAtekuteku;
 			sourceTree = "<group>";
 		};
+		33FB16912EDD24330083F7F5 /* CustomTabBar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			children = (
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 				331DAEDB2EC16D240055EBEC /* Products */,
+				33FB16912EDD24330083F7F5 /* CustomTabBar */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +81,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
+				33FB16912EDD24330083F7F5 /* CustomTabBar */,
 			);
 			name = "花てくてっく";
 			packageProductDependencies = (

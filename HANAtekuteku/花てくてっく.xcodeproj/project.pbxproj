@@ -34,6 +34,11 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		33FB17C62EDD49900083F7F5 /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 				331DAEDB2EC16D240055EBEC /* Products */,
 				33FB16912EDD24330083F7F5 /* CustomTabBar */,
+				33FB17C62EDD49900083F7F5 /* Home */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +88,7 @@
 			fileSystemSynchronizedGroups = (
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 				33FB16912EDD24330083F7F5 /* CustomTabBar */,
+				33FB17C62EDD49900083F7F5 /* Home */,
 			);
 			name = "花てくてっく";
 			packageProductDependencies = (

@@ -20,7 +20,7 @@ struct CustomTabBar: View {
             Color.bg.ignoresSafeArea()
                 // ビュー
                 ZStack {
-                        ScrollView{
+                        
                             switch selectedIndex {
                             case 0:
                                 HomeView()
@@ -35,7 +35,7 @@ struct CustomTabBar: View {
                             default:
                                 HomeView()
                             }   //swich
-                        }   //
+                        
                     VStack{
                         //上部タブ
                         HStack {

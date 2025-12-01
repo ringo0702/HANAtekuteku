@@ -1,12 +1,12 @@
 //
-//  NewscWeather.swift
+//  NewsWeather.swift
 //  花てくてっく
 //
 //  Created by 2230220 on 2025/12/01.
 //
 import SwiftUI
 
-struct NewscWeather: View {
+struct NewsWeather: View {
     @State var nowDate = Date()
     @State var dateText = ""
     private let dateFormatter = DateFormatter()
@@ -35,5 +35,5 @@ struct NewscWeather: View {
 }
 
 #Preview {
-    NewscWeather()
+    NewsWeather()
 }

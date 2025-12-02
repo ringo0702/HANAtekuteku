@@ -29,7 +29,7 @@ struct CustomTabBar: View {
                             case 2:
                                 Photo()
                             case 3:
-                                MapTrifold()
+                                MapTrifoldView()
                             case 4:
                                 Notebook()
                             default:
@@ -89,6 +89,8 @@ struct CustomTabBar: View {
                                             .zenFont(.medium, size: 11)
                                             .padding(.top, -10)
                                     }
+                                    .shadow(color: selectedIndex == 0 ? .mainPink : .bg, radius: 1, x: 0, y: 0)
+
                                 }    //Button ホーム
                                 .buttonStyle(.plain)
                                 .padding(.trailing, 24)
@@ -108,6 +110,8 @@ struct CustomTabBar: View {
                                             .zenFont(.medium, size: 11)
                                             .padding(.top, -10)
                                     }
+                                    .shadow(color: selectedIndex == 1 ? .mainPink : .bg, radius: 1, x: 0, y: 0)
+
                                 }    //Button ガーデン
                                 .buttonStyle(.plain)
                                 
@@ -137,6 +141,7 @@ struct CustomTabBar: View {
                                             .zenFont(.medium, size: 11)
                                             .padding(.top, -10)
                                     }
+                                    .shadow(color: selectedIndex == 3 ? .mainPink : .bg, radius: 1, x: 0, y: 0)
                                 }    //Button マップ
                                 .buttonStyle(.plain)
                                 .padding(.trailing, 24)
@@ -157,6 +162,8 @@ struct CustomTabBar: View {
                                             .zenFont(.medium, size: 11)
                                             .padding(.top, -10)
                                     }
+                                    .shadow(color: selectedIndex == 4 ? .mainPink : .bg, radius: 1, x: 0, y: 0)
+
                                 }   //Button 日記
                                 .buttonStyle(.plain)
                                 

@@ -15,6 +15,8 @@ struct HomeView: View {
             Color.bg.ignoresSafeArea()
             VStack{
                 ZStack{
+                    NewsWeather()
+                        .padding(.top, 14)
                     VStack{
                         ZStack{
                             //上ボーダー
@@ -35,7 +37,9 @@ struct HomeView: View {
                             .fill(.thinGreen)
                             .frame(maxWidth: .infinity, maxHeight: 2)
                     }
-                    .frame(maxWidth: .infinity, maxHeight: 130)
+                    .frame(maxWidth: .infinity, maxHeight: 144)
+                    
+                   
                 }
                 Spacer()
             }   //VStack

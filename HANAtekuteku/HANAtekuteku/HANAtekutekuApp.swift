@@ -11,8 +11,7 @@ import SwiftUI
 struct HANAtekutekuApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
-                
+                    CustomTabBar()
         }
     }
 }

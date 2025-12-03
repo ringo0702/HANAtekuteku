@@ -9,7 +9,7 @@ import SwiftUI
 struct CustomTabBar: View {
     @State private var selectedIndex = 0
     
-    let tabIcons = ["House", "PottedPlant", "Photo", "MapTrifold", "Notebook"]
+    let tabIcons = ["House", "PottedPlant", "CameraPlus", "MapTrifold", "Notebook"]
     let tabIconsPink = ["House_p", "PottedPlant_p", "MapTrifold_p", "Notebook_p"]
     let tabNames = ["ホーム", "ガーデン","フォト", "マップ", "日記"]
     
@@ -119,10 +119,18 @@ struct CustomTabBar: View {
                                 Button(action:{
                                     selectedIndex = 2
                                 }){
-                                    VStack{
+                                    ZStack{
+                                        Circle()
+                                            .fill(.mainPink)
+                                            .frame(width: 100, height: 100)
+                                            .overlay(
+                                                Circle()
+                                                    .stroke(Color.bg, lineWidth: 1)
+                                            )
                                         Image(tabIcons[2])
-                                            .padding(.bottom, 60)
                                     }
+                                    .shadow(color: .bg, radius: 1, x: 0, y: 0)
+                                    .padding(.bottom, 60)
                                 }    //Button フォト
                                 .buttonStyle(.plain)
                                 

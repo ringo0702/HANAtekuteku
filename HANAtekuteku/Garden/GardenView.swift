@@ -10,16 +10,13 @@ struct GardenView: View {
     var body: some View {
         ZStack{
             Color.bg.ignoresSafeArea()
-            VStack{
-                ZStack{
-                    RoundedRectangle(cornerRadius: 50)
-                        .fill(.white.opacity(0))
-                        .frame(maxWidth: 320, maxHeight: 80)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 50)
-                                .stroke(Color.mainPink, lineWidth: 1)
-                        )
-                }   //ZStack
+            VStack(spacing: 16){
+                TodayRecord()
+                HStack(){
+                    Spacer()
+                    MissionButton()
+                }
+                .frame(maxWidth: 320)
                 Spacer()
             }   //VStack
             .padding(.top, 130)

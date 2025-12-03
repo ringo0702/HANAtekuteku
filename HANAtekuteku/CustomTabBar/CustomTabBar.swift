@@ -25,7 +25,7 @@ struct CustomTabBar: View {
                             case 0:
                                 HomeView()
                             case 1:
-                                PottedPlant()
+                                GardenView()
                             case 2:
                                 Photo()
                             case 3:

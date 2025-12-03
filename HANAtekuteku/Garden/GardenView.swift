@@ -1,12 +1,12 @@
 //
-//  PottedPlant.swift
+//  GardenView.swift
 //  花てくてっく
 //
 //  Created by 2230220 on 2025/12/01.
 //
 import SwiftUI
 
-struct PottedPlant: View {
+struct GardenView: View {
     var body: some View {
         ZStack{
             Color.bg.ignoresSafeArea()
@@ -28,5 +28,5 @@ struct PottedPlant: View {
 }   //View
 
 #Preview {
-    PottedPlant()
+    GardenView()
 }

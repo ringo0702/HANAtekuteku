@@ -11,25 +11,27 @@ import  SwiftUI
 struct TodayRecord:View {
     var body: some View {
         //今日の記録
-        ZStack{
+        ZStack(alignment: .bottom){
             //フレーム
             RoundedRectangle(cornerRadius: 50)
                 .fill(.bg.opacity(0.7))
                 .frame(maxWidth: 320, maxHeight: 80)
                 .overlay(
                     RoundedRectangle(cornerRadius: 50)
-                        .stroke(Color.thinPink, lineWidth: 1)
+                        .stroke(Color.thinPink, lineWidth: 2)
                 )
-            ZStack{
-                RoundedRectangle(cornerRadius :30)
-                    .fill(Color.thinPink)
-                    .frame(width: 80, height: 24)
-                Text("今日の記録")
-                    .zenFont(.medium, size: 12)
-            }
-            .padding(.bottom, 80)
             VStack{
-               
+                ZStack{
+                    RoundedRectangle(cornerRadius :30)
+                        .fill(Color.thinPink)
+                        .frame(width: 80, height: 24)
+                    Text("今日の記録")
+                        .zenFont(.medium, size: 12)
+                }
+                Spacer()
+            }
+
+            VStack{
                Spacer()
                 //記録
                 HStack(spacing: 32){
@@ -57,8 +59,9 @@ struct TodayRecord:View {
                 }   //HStack 記録
                 Spacer()
             }   //VStack
+            .frame(height: 80)
         }   //ZStack
-        .frame(maxWidth: 320, maxHeight: 80)
+        .frame(maxWidth: 320, maxHeight: 92)
     }   //body
 }   //View
 

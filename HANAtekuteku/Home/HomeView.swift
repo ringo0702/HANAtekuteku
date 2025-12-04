@@ -14,6 +14,7 @@ struct HomeView: View {
         ZStack{
             Color.bg.ignoresSafeArea()
             VStack{
+                //今日のトピック
                 ZStack{
                     NewsWeather()
                         .padding(.top, 14)
@@ -38,12 +39,11 @@ struct HomeView: View {
                             .frame(maxWidth: .infinity, maxHeight: 2)
                     }
                     .frame(maxWidth: .infinity, maxHeight: 144)
-                    
-                   
-                }
+                }   //ZStack 今日のトピック
+                .padding(.top, 140)
+
                 Spacer()
             }   //VStack
-            .padding(.top, 140)
         }   //ZStack
     }   //body
 }   //View

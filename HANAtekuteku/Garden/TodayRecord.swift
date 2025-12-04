@@ -14,20 +14,25 @@ struct TodayRecord:View {
         ZStack{
             //フレーム
             RoundedRectangle(cornerRadius: 50)
-                .fill(.white.opacity(0))
+                .fill(.bg.opacity(0.7))
                 .frame(maxWidth: 320, maxHeight: 80)
                 .overlay(
                     RoundedRectangle(cornerRadius: 50)
-                        .stroke(Color.mainPink, lineWidth: 1)
+                        .stroke(Color.thinPink, lineWidth: 1)
                 )
-            
-            VStack{
+            ZStack{
+                RoundedRectangle(cornerRadius :30)
+                    .fill(Color.thinPink)
+                    .frame(width: 80, height: 24)
                 Text("今日の記録")
                     .zenFont(.medium, size: 12)
-                    .padding(.top, 2)
-                Spacer()
+            }
+            .padding(.bottom, 80)
+            VStack{
+               
+               Spacer()
                 //記録
-                HStack(spacing: 16){
+                HStack(spacing: 32){
                     //距離
                     HStack(alignment: .bottom,spacing: 4){
                         Text("3")

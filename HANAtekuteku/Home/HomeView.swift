@@ -24,7 +24,7 @@ struct HomeView: View {
                                 .fill(.thinGreen)
                                 .frame(maxWidth: .infinity, maxHeight: 2)
                             ZStack{
-                                RoundedRectangle(cornerRadius :10)
+                                RoundedRectangle(cornerRadius :30)
                                     .fill(Color.thinGreen)
                                     .frame(width: 80, height: 24)
                                 Text("今日の" + news[selectedNews])
@@ -43,7 +43,7 @@ struct HomeView: View {
                 }
                 Spacer()
             }   //VStack
-            .padding(.top, 130)
+            .padding(.top, 140)
         }   //ZStack
     }   //body
 }   //View

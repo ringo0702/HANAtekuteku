@@ -9,7 +9,11 @@ import SwiftUI
 struct GardenView: View {
     var body: some View {
         ZStack{
-            Color.bg.ignoresSafeArea()
+            Image(.gardenSoil)
+                .resizable()
+                .frame(maxHeight: .infinity)
+                .ignoresSafeArea()
+            //今日の記録、ミッションボタン
             VStack(spacing: 16){
                 TodayRecord()
                 HStack(){
@@ -19,8 +23,9 @@ struct GardenView: View {
                 .frame(maxWidth: 320)
                 Spacer()
             }   //VStack
-            .padding(.top, 130)
+            .padding(.top, 140)
         }   //ZStack
+
     }   //body
 }   //View
 

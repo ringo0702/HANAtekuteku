@@ -19,11 +19,15 @@ struct MissionButton:View {
                         Circle()
                             .stroke(Color.bg, lineWidth: 1)
                     )
-                    .shadow(color: .fontcaption, radius: 2, x: 0, y: 5)
+                    .shadow(color: .bg, radius: 1, x: 0, y: 0)
+
                 Image(.mission)
+                    .shadow(color: .bg, radius: 1, x: 0, y: 0)
             }
+
         }   //Button
         .buttonStyle(.plain)
+        
     }
 }
 

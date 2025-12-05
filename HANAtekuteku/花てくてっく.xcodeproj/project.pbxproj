@@ -34,6 +34,16 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		33FB17C62EDD49900083F7F5 /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		33FB18922EDEABC20083F7F5 /* Map */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 				331DAEDB2EC16D240055EBEC /* Products */,
 				33FB16912EDD24330083F7F5 /* CustomTabBar */,
+				33FB17C62EDD49900083F7F5 /* Home */,
+				33FB18922EDEABC20083F7F5 /* Map */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +94,8 @@
 			fileSystemSynchronizedGroups = (
 				331DAEDC2EC16D240055EBEC /* HANAtekuteku */,
 				33FB16912EDD24330083F7F5 /* CustomTabBar */,
+				33FB17C62EDD49900083F7F5 /* Home */,
+				33FB18922EDEABC20083F7F5 /* Map */,
 			);
 			name = "花てくてっく";
 			packageProductDependencies = (
@@ -277,6 +291,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HANAtekuteku/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +321,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HANAtekuteku/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

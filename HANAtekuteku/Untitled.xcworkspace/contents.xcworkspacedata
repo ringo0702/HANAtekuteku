@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:&#x82b1;&#x3066;&#x304f;&#x3066;&#x3063;&#x304f;.xcodeproj">
+   </FileRef>
+   <FileSystemSynchronizedGroup
+      location = "group:Garden"
+      name = "Garden">
+   </FileSystemSynchronizedGroup>
+</Workspace>

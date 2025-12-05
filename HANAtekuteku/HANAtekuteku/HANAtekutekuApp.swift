@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+class globalVariables: ObservableObject {         //用意するクラス
+    @Published var selectedIndex: Int = 0           //画面遷移変数
+    @Published var showImagePickerDialog = false    //ダイアログ
+}
+
 @main
 struct HANAtekutekuApp: App {
     var body: some Scene {
         WindowGroup {
-                    CustomTabBar()
+            CustomTabBar()
+                .environmentObject(globalVariables())
         }
     }
 }
